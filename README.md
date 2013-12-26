@@ -1,15 +1,14 @@
 = 視差和滾軸捲動調整
 
-== 說明
-
-滾軸捲動：
+＃滾軸捲動：
 
 window.scrollTo(window.pageXOffset, window.pageYOffset - e.delta/5);
 
 e.delta 的除數常數可以調整，設定滾輪下滑時的延遲程度。（常數越大，延遲的越慢）
 
 
-視差（只支援上下移動）：
+
+＃視差（只支援上下移動）：
 
 選取要綁定視差效果的元素，輸入設定值。
 
